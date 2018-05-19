@@ -1,0 +1,23 @@
+{
+    "name": "vue-router-guard-trigger",
+    "version": "0.1.0",
+    "description": "Trigger Vue.js router navigation guards without reloading the route",
+    "main": "dist/main.js",
+    "repository": "tbd",
+    "license": "Unlicense",
+    "scripts": {
+        "prepublishOnly": "npm run build",
+        "build": "webpack --mode production"
+    },
+    "peerDependencies": {
+        "vue": "^2.5.16",
+        "vue-router": "^3.0.1"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.4",
+        "babel-preset-env": "^1.7.0",
+        "webpack": "^4.8.3",
+        "webpack-cli": "^2.1.3"
+    }
+}
