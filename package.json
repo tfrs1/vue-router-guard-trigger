@@ -3,7 +3,10 @@
     "version": "0.1.0",
     "description": "Trigger Vue.js router navigation guards without reloading the route",
     "main": "dist/main.js",
-    "repository": "tbd",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:aleksandar-micic/vue-router-guard-trigger.git"
+    },
     "license": "Unlicense",
     "scripts": {
         "prepublishOnly": "npm run build",

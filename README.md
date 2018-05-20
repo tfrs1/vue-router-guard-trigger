@@ -80,4 +80,4 @@ this.$triggerGuard(exampleGuard);
 
 ## License
 
-This project is licensed under Unlicense license. This license does not require you to take the license with you to your project. Read the [UNLICENSE]() file for more information.
+This project is licensed under Unlicense license. This license does not require you to take the license with you to your project. Read the [UNLICENSE](https://github.com/aleksandar-micic/vue-router-guard-trigger/blob/master/UNLICENSE) file for more information.
