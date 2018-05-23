@@ -1,4 +1,7 @@
 module.exports = {
+    output: {
+        libraryTarget: 'umd'
+    },
     module: {
         rules: [
             {
