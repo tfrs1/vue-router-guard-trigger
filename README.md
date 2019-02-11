@@ -1,4 +1,4 @@
-# Vue Route Guard Trigger
+# Vue Router Guard Trigger
 
 ## Introduction
 
@@ -12,20 +12,20 @@ This plugin allows you to re-trigger the navigation guards on demand in order to
 
 You can add the plugin as dependency by running the following [npm](https://www.npmjs.com/) command.
 ```shell
-npm install --save vue-route-guard-trigger
+npm install --save vue-router-guard-trigger
 ```
 You can also use [Yarn](https://yarnpkg.com/en/) to accomplish the same thing.
 ```shell
-yarn add vue-route-guard-trigger
+yarn add vue-router-guard-trigger
 ```
 
 ### Importing into the project
 
 The following snippet demonstrates how to import and install the plugin before use.
 ```javascript
-import VueRouteGuardTrigger from 'vue-route-guard-trigger';
+import VueRouterGuardTrigger from 'vue-router-guard-trigger';
 
-Vue.use(VueRouteGuardTrigger);
+Vue.use(VueRouterGuardTrigger);
 ```
 
 ## API
